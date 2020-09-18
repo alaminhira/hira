@@ -1,0 +1,53 @@
+.contact {
+    margin-top: 4rem; }
+    .contact__info {
+      padding-right: 4rem; }
+    .contact__heading {
+      font-size: 1.5rem;
+      margin-bottom: 1rem; }
+    .contact__details {
+      margin-top: 1rem; }
+    .contact__box {
+      width: 42%;
+      display: inline-block;
+      word-break: break-word;
+      border: 1px solid #d3d3d3;
+      padding: 3rem 1rem 2rem;
+      text-align: center;
+      border-radius: 5px;
+      position: relative;
+      margin: 2rem 1rem;
+      transition: all .2s ease-in-out; }
+      .contact__box h4 {
+        font-size: 1.1rem; }
+      .contact__box i {
+        font-size: 1.5rem;
+        color: #22d1ee;
+        background: #fff;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1), -2px -2px 8px rgba(0, 0, 0, 0.1);
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+        border-radius: 50%;
+        position: absolute;
+        top: -2rem;
+        left: 50%;
+        transform: translateX(-50%); }
+    .contact__form-heading {
+      margin-bottom: 1.5rem; }
+    .contact__group {
+      margin-bottom: 1.5rem;
+      position: relative; }
+      .contact__group input,
+      .contact__group textarea {
+        width: 100%;
+        padding: 8px 10px;
+        transition: all .2s ease-in-out;
+        border: none;
+        border-bottom: 2px solid #22d1ee;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1), -2px -2px 8px rgba(0, 0, 0, 0.1); }
+      .contact__group textarea {
+        min-height: 7.5rem; }
+    .contact button {
+      margin-left: 1rem; }
+  
